@@ -38,8 +38,8 @@
 			alert("이름을 입력하세요.");
 			return false;
 		}
-		if(form.email.value == ""){ //form의 user_pw의 값이 없으면 if문실행
-			alert("이메일을 입력하세요.");
+		if(form.phoneNum.value == ""){ //form의 user_pw의 값이 없으면 if문실행
+			alert("휴대폰번호를 입력하세요.");
 			return false;
 		}
 	</script>
@@ -56,8 +56,8 @@
         		
         			<label for="user_name" class="sr-only">이름</label>
         				<input type="text" name="user_name" class="form-control" placeholder="이름" required autofocus><BR>
-        			<label for="email" class="sr-only">이메일</label>
-        				<input type="text" name="email" class="form-control" placeholder="이메일" required><br>
+        			<label for="phoneNum" class="sr-only">전화번호</label>
+        				<input type="text" name="phoneNum" class="form-control" placeholder="전화번호" required><br>
         			
           			<!-- <a href="#" value="find_id">아이디찾기	</a>
           			<a href="#" value="find_id">비밀번호찾기</a> -->

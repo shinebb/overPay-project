@@ -6,7 +6,7 @@
 	//폼값 받기
 	request.setCharacterEncoding("UTF-8");
 	String user_name = request.getParameter("user_name");
-	String email = request.getParameter("email");
+	String phoneNum = request.getParameter("phoneNum");
 	
 	//web.xml에서 가져온 데이터베이스 연결 정보
 	String oracleDriver = application.getInitParameter("OracleDriver");
@@ -15,7 +15,7 @@
 	String oraclePwd = application.getInitParameter("OraclePwd");
 	
 	MemberDAO dao = new MemberDAO(oracleDriver, oracleURL, oracleId, oraclePwd);
-	String resultId = dao.findId(user_name, email);
+	String resultId = dao.findId(user_name, phoneNum);
 	dao.close();
 %>
 <!DOCTYPE html>

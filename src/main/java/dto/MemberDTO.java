@@ -6,11 +6,12 @@ public class MemberDTO {
 	String id;
 	String pass;
 	String name;
+	String phoneNum;
 	String birthday;
 	String gender;
-	String email;
+	String postcode;
+	String address;
 	Date regidate;
-	
 	
 	public String getId() {
 		return id;
@@ -30,6 +31,12 @@ public class MemberDTO {
 	public void setName(String name) {
 		this.name = name;
 	}
+	public String getPhoneNum() {
+		return phoneNum;
+	}
+	public void setPhoneNum(String phoneNum) {
+		this.phoneNum = phoneNum;
+	}
 	public String getBirthday() {
 		return birthday;
 	}
@@ -42,11 +49,17 @@ public class MemberDTO {
 	public void setGender(String gender) {
 		this.gender = gender;
 	}
-	public String getEmail() {
-		return email;
+	public String getPostcode() {
+		return postcode;
 	}
-	public void setEmail(String email) {
-		this.email = email;
+	public void setPostcode(String postcode) {
+		this.postcode = postcode;
+	}
+	public String getAddress() {
+		return address;
+	}
+	public void setAddress(String address) {
+		this.address = address;
 	}
 	public Date getRegidate() {
 		return regidate;
@@ -54,4 +67,6 @@ public class MemberDTO {
 	public void setRegidate(Date regidate) {
 		this.regidate = regidate;
 	}
+	
+
 }

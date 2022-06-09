@@ -6,7 +6,7 @@
 <%@ page import="java.net.URLDecoder" %>
 
 <!DOCTYPE html>
-<html>
+<html> 
 <head>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="./resources/css/bootstrap.min.css" />

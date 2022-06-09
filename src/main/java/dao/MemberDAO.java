@@ -125,7 +125,7 @@ public class MemberDAO extends JDBConnect{
 			e.printStackTrace();
 		}
 		return resultPw;
-	}
+	} 
 	
 	//비밀번호 수정하기
 	public int editPw(String user_id, String user_pw) {

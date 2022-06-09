@@ -6,7 +6,7 @@
 <%@ page import="java.sql.Connection" %>
 <%
 Connection conn = null;
-
+ 
 try {
 	Context init = new InitialContext();
 	//DataSource ds = (DataSource)init.lookup("java:comp/env/jdbc/OracleDB");

@@ -16,7 +16,7 @@
 	
 	MemberDAO dao = new MemberDAO(oracleDriver, oracleURL, oracleId, oraclePwd);
 	String resultId = dao.findId(user_name, phoneNum);
-	dao.close();
+	dao.close(); 
 %>
 <!DOCTYPE html>
 <html>

@@ -7,7 +7,7 @@
 <%@ page import="dao.ProductDAO" %>
 <%@ page import="java.util.HashMap" %>
 <%@ page import="java.util.Map" %>
-
+ 
 <%
 String id = request.getParameter("id");   //요청 시 전달 받은 id 파라미터의 값 저장
 if(id == null || id.trim().equals("")) {   //해당 값이 비었으면

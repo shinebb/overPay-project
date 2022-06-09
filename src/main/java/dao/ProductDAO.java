@@ -62,7 +62,7 @@ public class ProductDAO extends DBConnPool {
 			
 			while(rs.next()) {
 				Product dto = new Product();
-				
+				 
 				dto.setProductId(rs.getString(1));   //상품 아이디
 				dto.setPname(rs.getString(2));   //상품명
 				dto.setUnitPrice(rs.getInt(3));   //상품 가격

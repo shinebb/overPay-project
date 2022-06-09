@@ -5,7 +5,7 @@ navbar 반응형 축소 및 색 구성표 클래스
 	bg-* 유틸리티를 사용하여 사용자 지정
 	<div class="container">
 	container 부트스트랩에서 가장 기본적인 레이아우 요소, 기본 그리드 시스템을 사용할 때 필요함
-		<div class="navbar-header">
+		<div class="navbar-header"> 
 			<a class="navbar-brand" href="./welcome.jsp">Home</a>
 			a태그 : href 하이퍼링크를 걸 태그
 			navbar-brand : 회사, 제품 또는 프로젝트 이름

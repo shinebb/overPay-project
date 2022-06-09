@@ -18,7 +18,7 @@
 	MemberDAO dao = new MemberDAO(oracleDriver, oracleURL, oracleId, oraclePwd);
 	String resultPw = dao.findPw(user_id, user_name, phoneNum);
 	dao.close();
-%>
+%> 
 <!DOCTYPE html>
 <html>
 <head>

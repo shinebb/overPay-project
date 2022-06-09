@@ -17,7 +17,7 @@
 	MemberDAO dao = new MemberDAO(oracleDriver, oracleURL, oracleId, oraclePwd);
 	int result = dao.editPw(user_id, user_pw);
 	dao.close();
-%>
+%> 
 <!DOCTYPE html>
 <html>
 <head>

@@ -37,7 +37,7 @@ for(int i = 0; i < goodsList.size(); i++) {   //상품 데이터 개수만큼 �
 	if(goods.getProductId().equals(id)) {   //상품 id가 전달받은 id 값과 같으면
 		break;   //반복 종료
 	}
-}
+} 
 
 //세션 영역에 저장된 cartlist 속성의 값 가져와 list에 저장
 List<Product> list = (ArrayList<Product>) session.getAttribute("cartlist");

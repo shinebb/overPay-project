@@ -5,7 +5,7 @@
 <!-- 날짜와 관련된 라이브러리 import -->
 
 <!DOCTYPE html>
-<html>
+<html> 
 <head>
 	<meta charset="UTF-8">
 	<!-- 자바스크립트 프레임워크인 bootstrap 4 스타일을 CDN 방식으로 불러와 활용 -->

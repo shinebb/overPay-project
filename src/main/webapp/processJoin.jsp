@@ -3,7 +3,7 @@
 
 <%@ page import="dao.MemberDAO" %>
 <%@ page import="dto.MemberDTO" %>
-
+ 
 <%
 //폼값 받기
 String user_id = request.getParameter("user_id");

@@ -3,7 +3,7 @@
 <%@ page import="java.util.Date"%>
 <!-- 날짜와 관련된 라이브러리 import -->
 <!DOCTYPE html>
-<html><head><meta charset="UTF-8">
+<html><head><meta charset="UTF-8"> 
 	<!-- bootstrap 스타일 활용 -->
 	<link rel="stylesheet" href="./resources/css/bootstrap.min.css" />
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>

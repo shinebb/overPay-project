@@ -16,7 +16,7 @@
 	
 	
 	</style>
-</head>
+</head> 
 <body style="padding-top: 57px;">
 	<jsp:include page="menu.jsp" />
 	<div class="jumbotron">

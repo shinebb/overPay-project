@@ -45,6 +45,7 @@ public class MemberDAO extends JDBConnect{
 	
 	//회원가입
 	public int insertUser(MemberDTO dto) {
+		System.out.println("메소드 멤버 인서트");
 		int result = 0;
 		
 		try {
@@ -148,5 +149,6 @@ public class MemberDAO extends JDBConnect{
 			e.printStackTrace();
 		}
 		return result;
-	}	
+	}
+	
 }

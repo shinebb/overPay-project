@@ -14,9 +14,7 @@ navbar 반응형 축소 및 색 구성표 클래스
 </nav>
  -->
 
- <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
-
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 
 <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top shadow-lg">
 <!-- <nav class="navbar navbar-default bg-dark navbar-dark fixed-top shadow-lg" > -->
@@ -25,7 +23,7 @@ navbar 반응형 축소 및 색 구성표 클래스
 			<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navMenu">
 				<span class="navbar-toggler-icon"></span>        
 			</button>
-			<a class="navbar-brand" href="welcome.jsp">오버페이</a>
+			<a class="navbar-brand" href="./main.jsp">오버페이</a>
 		</div>
 		<div class="collapse navbar-collapse" id="navMenu">
 			<ul class="navbar-nav" style="margin:0 auto;">
@@ -79,10 +77,10 @@ navbar 반응형 축소 및 색 구성표 클래스
 					<a href="#" class="nav-link">마이페이지</a>
 				</li>
 				<li class="nav-item">
-					<a href="#" class="nav-link">장바구니</a>
+					<a href="./cart.jsp" class="nav-link">장바구니</a>
 				</li>
 				<li class="nav-item">
-					<a href="#" class="nav-link">고객센터</a>
+					<a href="./list.jsp" class="nav-link">고객센터</a>
 				</li>
 			</ul>
 		</div>

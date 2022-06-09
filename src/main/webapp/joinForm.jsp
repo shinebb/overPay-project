@@ -3,19 +3,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" href="./resources/css/bootstrap.min.css">
-<meta charset="UTF-8">
-<title>회원가입</title>
-<style>
-   .card {
-        margin: 0 auto; /* Added */
-        float: none; /* Added */
-        margin-bottom: 100px; /* Added */
-        margin-top: 100px;
-	} 
-
-
-</style>
+	<link rel="stylesheet" href="./resources/css/bootstrap.min.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+	<meta charset="UTF-8">
+	<title>쇼핑도 취미다, 오버페이 마켓</title>
+	<style>
+	   .card {
+	        margin: 0 auto; /* Added */
+	        float: none; /* Added */
+	        margin-bottom: 100px; /* Added */
+	        margin-top: 100px;
+		}
+	</style>
 </head>
 <body style="padding-top: 57px;">
 	<jsp:include page="menu.jsp" />
@@ -284,15 +285,23 @@
 						</div>
         			</div>
 				</div>
+
+			    <style>
+			    	input[name="gender"]:checked + label {
+						background-color: #007bff;
+						color: white;
+					}
+			    </style>
+				
 				<div class="mb-3">
 					<label for="exampleFormControlInput1" class="form-label">성별</label>
 					<label style="font-size: 11px;">(선택)</label><br>
 					<div class="d-grid gap-2 col-6 mx-auto ">
   						<div class="btn-group " role="group" aria-label="Basic radio toggle button group">
-							<input type="radio" class="btn-check" name="gender" id="gender" autocomplete="off" style="display: none;" value="M">
-  							<label class="btn btn-outline-secondary" for="gender">남자</label>
-  							<input type="radio" class="btn-check" name="gender" id="gender" autocomplete="off" style="display: none;" value="F">
-  							<label class="btn btn-outline-secondary" for="gender">여자</label>
+							<input type="radio" class="btn-check" name="gender" id="genderM" autocomplete="off" style="display: none;" value="M">
+  							<label class="btn btn-outline-secondary" for="genderM">남자</label>
+  							<input type="radio" class="btn-check" name="gender" id="genderF" autocomplete="off" style="display: none;" value="F">
+  							<label class="btn btn-outline-secondary" for="genderF">여자</label>
 						</div>
 					</div>
 				</div>

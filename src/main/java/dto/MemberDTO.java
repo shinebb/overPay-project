@@ -67,6 +67,4 @@ public class MemberDTO {
 	public void setRegidate(Date regidate) {
 		this.regidate = regidate;
 	}
-	
-
 }
